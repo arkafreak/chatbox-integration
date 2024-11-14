@@ -1,0 +1,49 @@
+.homepage {
+    background-color: #2f4f4f; /* Slate color */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 94.8vh;
+    background-image: url(image.jpg);
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; 
+    
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 1000;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    color: #000000; /* Light Slate Gray */
+    margin-bottom: 30px;
+    font-weight: 1000;
+    border-radius: 10px;
+  }
+  
+  /* .chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #00000055;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  } */
+  
