@@ -24,7 +24,7 @@ function Chatbot() {
       const response = await axios.post(
         "https://api.openai.com/v1/chat/completions",
         {
-          model: "gpt-4o-mini-2024-07-18", // The model you're using
+          model: "gpt-4o-mini-2024-07-18", // The model I am using
           messages: [...messages, userMessage], // The conversation history
         },
         {
@@ -35,7 +35,6 @@ function Chatbot() {
         }
       );
 
-      // Parse and add the response from the assistant
       const botMessage = {
         role: "assistant",
         content: response.data.choices[0].message.content.trim(),
@@ -50,7 +49,7 @@ function Chatbot() {
       ]);
     } finally {
       setIsLoading(false);
-      setIsFullScreen(true); // Expand to full page on submit
+      setIsFullScreen(true); // Expanding to full page on submit
     }
   };
 
